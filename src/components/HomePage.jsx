@@ -13,16 +13,16 @@ const HomePage = () => {
         Record <span className="text-indigo-400">&rarr;</span> Transcribe{" "}
         <span className="text-indigo-400">&rarr;</span> Translate{" "}
       </h3>
-      <button className="flex items-center text-base justify-between gap-4 mx-auto w-72 max-w-full my-4">
-        <p>Record</p>
+      <button className="flex items-center text-base justify-between gap-4 mx-auto w-72 max-w-full my-4 px-4 py-2 rounded-xl specialBtn">
+        <p className="text-indigo-400">Record</p>
         <i className="fa-solid fa-microphone"></i>
       </button>
       <p className="text-base">
         Or <label
           className="text-indigo-400 cursor-pointer hover:text-blue-600 duration-200"
-          htmlFor=""
+          htmlFor="fileInput"
         >
-          upload <input className="hidden" type="file" accept=".mp3, .wav" />
+          upload <input id="fileInput" className="hidden" type="file" accept=".mp3, .wave" />
         </label>
         an audio file
       </p>
