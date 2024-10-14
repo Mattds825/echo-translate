@@ -8,6 +8,7 @@ A web app built with React Js that transcribes and translates your speech using 
 - user can record or upload a file for transcription/translation
 - user can reset the audio recording/file
 - ml model to transcribe audio file
+    - **OpenAI Whisper**
 - user can choose which language to translate to
 - ml model to translate
 - user can view and/or download the translation
@@ -18,5 +19,7 @@ A web app built with React Js that transcribes and translates your speech using 
 - Tailwind Css
 - Google fonts
 - Font Awesome Icons
+- Open AI whisper model
+- @xenova/transformers to interact with hugging face
 
 - inspired by the tutorial by [smoljames](https://www.youtube.com/watch?v=82PXenL4MGg)
